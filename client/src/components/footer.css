@@ -5,7 +5,7 @@
 .footer-contents{
     display: flex;
     justify-content: center;
-    gap: 200px;
+    gap: 264px;
 }
 .footer-image-box{
     margin: 4px 0px 0px 0px;
@@ -63,7 +63,7 @@
     color: #6f6f6f;
 }
 .footer-social-media{
-    width: 64.4%;
+    width: 68%;
     margin: 20px auto 0px auto;
     display: flex;
     justify-content: flex-start;
