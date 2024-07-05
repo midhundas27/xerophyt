@@ -46,7 +46,6 @@ const Footer = () => {
         </div>
       </div>
     <div className='footer-social-media'>
-      {/* hfhg */}
       <div className='facebook-image-box'>
         <img src="facebook.png" alt="facebook-image" className='facebook-image-box'></img>
       </div>
