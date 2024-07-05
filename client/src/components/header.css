@@ -1,0 +1,23 @@
+.header-container {
+    position: sticky;
+    width: 100%;
+    top: 0px; left: 0px; 
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+    justify-content: space-around;
+    z-index: 10;
+    background-color: #ffffff;
+}
+
+.header-website-logo{
+    margin: 15px 0px 5px 0px;
+    color: rgb(0, 0, 0); 
+}
+.header-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    font-size: 14px;
+    font-weight: 600;
+}

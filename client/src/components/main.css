@@ -1,0 +1,128 @@
+.main-container{
+    background-color: #ffffff;
+    width: 100%;
+    margin: 100px auto 0px auto;
+}
+.main-contents{
+    display: flex;
+    justify-content: center;
+    gap: 85px;
+
+}
+.main-pretitle{
+    background-color: #ffe6e6;
+    color: #ff2626;
+    font-size: 14px;
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    font-weight: 500;
+    padding: 16px 0px;
+    border-radius: 99px;
+}
+.main-title-text{
+    margin: 30px 0px 0px 0px;
+}
+.main-title{
+    font-size: 65px;
+    font-weight: 700;
+}
+.margin{
+    margin: -10px 0px 0px 0px;
+}
+.main-title-color{
+    color: #ff2626;
+}
+.main-subtitle-text{
+    margin: 20px 0px 0px 0px;
+}
+.main-subtitle{
+    color: #6f6f6f;
+    font-size: 14px;
+}
+.main-contact{
+    margin: 30px 0px 0px 0px;
+}
+.main-contact-button{
+    background-color: #ff2626;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 99px;
+    padding: 16px 32px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.hire-us-textbox{
+    margin: 120px 0px 0px 0px;
+}
+.hire-us-text{
+    display: flex;
+    justify-content: center;
+    font-size: 42px;
+    font-weight: 700;
+}
+.hire-us-options{
+    margin: 50px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+}
+.hire-us-option-list{
+    background-color: #ffffff;
+    width: 18vw;
+    border-radius: 34px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.hire-us-option-icon{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 0px 0px;
+}
+.hire-us-option-title{
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 0px 0px;
+}
+.hire-us-option-content{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 50px 0px;
+}
+.why-us-textbox{
+    margin: 70px 0px 0px 0px;
+}
+.why-us-title{
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.why-us-descbox{
+    margin: 30px 0px 0px 0px;
+}
+.why-us-desc{
+    font-size: 16px;
+    text-align: center;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+.why-us-captionbox{
+    margin: 20px 0px 0px 0px;
+}
+.why-us-caption{
+    font-size: 14px;
+    text-align: center;
+    color: #6f6f6f;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
