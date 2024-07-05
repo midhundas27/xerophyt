@@ -1,6 +1,5 @@
 import React from 'react'
 import './footer.css'
-
 const Footer = () => {
   return (
     <div className='footer-container'>
@@ -47,6 +46,7 @@ const Footer = () => {
         </div>
       </div>
     <div className='footer-social-media'>
+      {/* hfhg */}
       <div className='facebook-image-box'>
         <img src="facebook.png" alt="facebook-image" className='facebook-image-box'></img>
       </div>
