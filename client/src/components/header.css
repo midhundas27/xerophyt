@@ -1,27 +1,121 @@
 .header-container {
     position: sticky;
     width: 100%;
-    top: 0px; left: 0px; 
+    top: 0px;
+    left: 0px;
     display: flex;
     align-items: center;
     margin: 0px auto;
+    gap: 3vw;
     justify-content: space-around;
     z-index: 10;
     background-color: #ffffff;
 }
 
-.header-website-logo{
-    margin: 15px 0px 5px 0px;
-    color: rgb(0, 0, 0); 
+.header-website-logo-box {
+    margin: 5px 0px 5px 0px;
 }
-.header-buttons{
+.header-website-logo {
+    max-width: 100%;
+}
+
+.header-buttons {
     display: flex;
     justify-content: center;
-    gap: 60px;
-    font-size: 14px;
-    font-weight: 600;
+    gap: 3vw;
+    font-size: 16px;
+    font-weight: 500;
     color: #000000;
 }
-.header-buttons-click{
+
+.header-buttons-click {
     color: #000000;
 }
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger div {
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+.menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 55px;
+    right: 20px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.menu a {
+    padding: 5px 10px;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+}
+
+@media (max-width: 575.98px) {
+    .header-buttons {
+        display: none;
+    }
+    .hamburger {
+        display: flex;
+    }
+    .menu {
+        display: none;
+    }
+    .menu.active {
+        display: flex;
+    }
+    .header-website-logo {
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .header-buttons {
+        font-size: 13px;
+    }
+    .header-website-logo {
+        max-width: 85%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header-buttons {
+        font-size: 14px;
+    }
+    .header-website-logo {
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .header-buttons {
+        font-size: 15px;
+    }
+    .header-website-logo {
+        max-width: 95%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .header-buttons {
+        font-size: 16px;
+    }
+    .header-website-logo {
+        max-width: 100%;
+    }
+} 
+
+
+
