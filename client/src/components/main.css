@@ -45,6 +45,7 @@
 }
 .main-contact-button{
     background-color: #ff2626;
+    cursor: pointer;
     color: #ffffff;
     border: none;
     outline: none;

@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './main.css';
 
 function Main () {
@@ -21,9 +22,9 @@ function Main () {
                cutting-edge technology and  
             </div>
             </div>
-            <div className='main-contact'>
+            <Link to="#contact"><div className='main-contact'>
                 <button className='main-contact-button'>CONTACT NOW</button>
-            </div>
+            </div></Link>
         </div>
         <div className='main-image'>
             <div>
