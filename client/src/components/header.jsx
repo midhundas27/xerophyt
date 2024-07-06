@@ -11,10 +11,10 @@ function Header() {
         </Link>
       </div>
       <div className="header-buttons">
-        <Link to="/"><div>Home</div></Link>
-        <Link to="#services"><div>Services</div></Link>
-        <Link to="#about"><div>About</div></Link>
-        <Link to="#contact"><div>Contact</div></Link>
+        <Link to="/"><div className="header-buttons-click">Home</div></Link>
+        <Link to="#services"><div className="header-buttons-click">Services</div></Link>
+        <Link to="#about"><div className="header-buttons-click">About</div></Link>
+        <Link to="#contact"><div className="header-buttons-click">Contact</div></Link>
       </div>
     </div> 
   );
