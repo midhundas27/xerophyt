@@ -5,7 +5,7 @@
 .footer-contents{
     display: flex;
     justify-content: center;
-    gap: 264px;
+    gap: 200px;
 }
 .footer-image-box{
     margin: 4px 0px 0px 0px;
@@ -21,7 +21,7 @@
 .footer-details-contents{
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 130px;
 }
 .footer-contents-list-box{
     margin: 32px 0px 0px 0px;
