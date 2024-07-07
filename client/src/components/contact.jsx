@@ -36,16 +36,17 @@ const Contact = () => {
         <div className='contact-contents'>
           <div className='contact-texts'>
             <div className='contact-title-box'>
-              <div className='contact-title'>
-                Have a Project on <br /> mind?
-              </div>
+              <div className='contact-title'>Have a Project</div>
+              <div className="contact-title">on mind?</div>
             </div>
             <div className='contact-desc-box'>
               <div className='contact-desc'>
-                We can help you bring your ideas to life. Let’s <br />
-                talk about what we can build and raise <br />
-                together.
-              </div>
+                We can help you bring your ideas to life.Let’s talk about what we can build and raise together.</div>
+                {/* <div className='contact-desc'>
+                </div> */}
+                {/* <div className='contact-desc'>
+                
+              </div> */}
             </div>
             <div className='contact-form-box'>
               <form ref={form} onSubmit={sendEmail}>
@@ -93,15 +94,15 @@ const Contact = () => {
         <div className='contact-sub-contents'>
           <div className='contact-sub-title-box'>
             <div className='contact-sub-title'>
-              Let us together build a <br /> flourishing business
+              Let us together build a flourishing business
             </div>
           </div>
           <div className='contact-sub-desc-box'>
             <div className='contact-sub-desc'>
-              When connected with us, you aren’t growing your business alone. <br />
-              We have your back and put in our best to contribute to the growth <br />
-              of your entire team and organization. So, if you are looking for the <br />
-              right agency that’ll help you build a good online presence and <br />
+              When connected with us, you aren’t growing your business alone.
+              We have your back and put in our best to contribute to the growth
+              of your entire team and organization. So, if you are looking for the
+              right agency that’ll help you build a good online presence and
               bring in more conversions and revenue, we are right here!
             </div>
           </div>

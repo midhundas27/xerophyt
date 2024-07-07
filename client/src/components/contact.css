@@ -104,7 +104,7 @@
 }
 .contact-button-click{
     cursor: pointer;
-    width: 150px;
+    width: 120px;
     padding: 12px;
     font-size: 14px;
     font-weight: 600;
@@ -121,7 +121,7 @@
 }
 .contact-image{
     padding: 50px 0px 0px 0px;
-    width: 100%;
+    max-width: 100%;
     height: 100%;
     object-fit: cover;
     overflow: visible;
@@ -154,3 +154,487 @@
     font-size: 14px;
     font-weight: 500;
 }
+@media (max-width: 575.98px) {
+    .contact-container{
+        border-radius: 20px;
+        width: 68%;
+    }
+    .contact-contents{
+        gap: 80px;
+    }
+    .contact-image{
+        max-width: 50%;
+        opacity: 1;
+    }
+    .contact-title-box{
+        margin: 20px 0px 0px 15px;
+    }
+    .contact-title{
+        font-size: 12px;
+        
+    }
+    .contact-desc-box{
+        margin: 10px 0px 0px 15px;
+    }
+    .contact-desc{
+        font-size: 8px;
+    }
+    input,
+    input::placeholder {
+        font-size: 8px;
+    }
+    .contact-fullname-box{
+        margin: 10px 0px 0px 15px;
+    }
+    .contact-fullname-label{
+        font-size: 8px;
+        margin: 0px 0px 0px 0px;
+    }
+    .contact-fullname-input{
+        width: 120px;
+        border-radius: 4px;
+        margin: 0px;
+    }
+    .contact-email-box{
+        margin: 5px 0px 0px 15px;
+    }
+    .contact-email-label{
+        font-size: 8px;
+        margin: 0px 0px 0px 0px;
+    }
+    .contact-email-input{
+        width: 120px;
+        border-radius: 4px;
+        margin: 0px;
+    }
+    .contact-service-box{
+        margin: 5px 0px 0px 15px;
+    }
+    .contact-service-label{
+        font-size: 8px;
+        margin: 0px 0px 0px 0px;
+    }
+    .contact-service-input{
+        width: 120px;
+        border-radius: 4px;
+        margin: 0px;
+    }
+    .contact-button-box{
+        margin: 20px 0px 20px 15px;
+    }
+    .contact-button-click{
+        width: 100px;
+        padding: 5px;
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .contact-sub-container{
+        border-radius: 20px;
+    }
+    .contact-sub-contents{
+        display: block;
+        justify-content: space-around;
+        gap: 0px;
+        padding: 150px 0px 50px 0px;
+    }
+    .contact-sub-title-box{
+        margin: 0px 20px 0px 20px;
+    }
+    .contact-sub-title{
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .contact-sub-desc-box{
+        margin: 20px 20px 0px 20px;
+    }
+    .contact-sub-desc{
+        font-size: 8px;
+        font-weight: 500;
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .contact-container{
+        border-radius: 20px;
+        width: 68%;
+    }
+    .contact-contents{
+        gap: 20px;
+    }
+    .contact-image{
+        max-width: 50%;
+    }
+    .contact-title-box{
+        margin: 20px 0px 0px 20px;
+    }
+    .contact-title{
+        font-size: 14px;
+        
+    }
+    .contact-desc-box{
+        margin: 10px 0px 0px 20px;
+    }
+    .contact-desc{
+        font-size: 10px;
+    }
+    input,
+    input::placeholder {
+        font-size: 10px;
+    }
+    .contact-fullname-box{
+        margin: 10px 0px 0px 20px;
+    }
+    .contact-fullname-label{
+        font-size: 10px;
+        margin: 0px 0px 0px 0px;
+    }
+    .contact-fullname-input{
+        width: 130px;
+        border-radius: 5px;
+        margin: 0px;
+    }
+    .contact-email-box{
+        margin: 5px 0px 0px 20px;
+    }
+    .contact-email-label{
+        font-size: 10px;
+        margin: 0px 0px 0px 0px;
+    }
+    .contact-email-input{
+        width: 130px;
+        border-radius: 5px;
+        margin: 0px;
+    }
+    .contact-service-box{
+        margin: 5px 0px 0px 20px;
+    }
+    .contact-service-label{
+        font-size: 10px;
+        margin: 0px 0px 0px 0px;
+    }
+    .contact-service-input{
+        width: 130px;
+        border-radius: 5px;
+        margin: 0px;
+    }
+    .contact-button-box{
+        margin: 20px 0px 20px 20px;
+    }
+    .contact-button-click{
+        width: 110px;
+        padding: 6px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .contact-sub-container{
+        border-radius: 20px;
+    }
+    .contact-sub-contents{
+        display: block;
+        justify-content: space-around;
+        gap: 0px;
+        padding: 150px 0px 50px 0px;
+    }
+    .contact-sub-title-box{
+        margin: 0px 25px 0px 25px;
+    }
+    .contact-sub-title{
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .contact-sub-desc-box{
+        margin: 25px 25px 0px 25px;
+    }
+    .contact-sub-desc{
+        font-size: 10px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .contact-container{
+        border-radius: 20px;
+        width: 68%;
+    }
+    .contact-contents{
+        gap: 38px;
+    }
+    .contact-image{
+        max-width: 50%;
+    }
+    .contact-title-box{
+        margin: 25px 0px 0px 25px;
+    }
+    .contact-title{
+        font-size: 16px;
+    }
+    .contact-desc-box{
+        margin: 15px 0px 0px 25px;
+    }
+    .contact-desc{
+        font-size: 12px;
+    }
+    input,
+    input::placeholder {
+        font-size: 12px;
+    }
+    .contact-fullname-box{
+        margin: 15px 0px 0px 25px;
+    }
+    .contact-fullname-label{
+        font-size: 12px;
+        margin: 0px;
+    }
+    .contact-fullname-input{
+        width: 150px;
+        border-radius: 6px;
+        margin: 0px;
+    }
+    .contact-email-box{
+        margin: 10px 0px 0px 25px;
+    }
+    .contact-email-label{
+        font-size: 12px;
+        margin: 0px;
+    }
+    .contact-email-input{
+        width: 150px;
+        border-radius: 6px;
+        margin: 0px;
+    }
+    .contact-service-box{
+        margin: 10px 0px 0px 25px;
+    }
+    .contact-service-label{
+        font-size: 12px;
+        margin: 0px;
+    }
+    .contact-service-input{
+        width: 150px;
+        border-radius: 6px;
+        margin: 0px;
+    }
+    .contact-button-box{
+        margin: 25px 0px 25px 25px;
+    }
+    .contact-button-click{
+        width: 120px;
+        padding: 7px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .contact-sub-container{
+        border-radius: 20px;
+    }
+    .contact-sub-contents{
+        display: block;
+        justify-content: space-around;
+        gap: 0px;
+        padding: 150px 0px 50px 0px;
+    }
+    .contact-sub-title-box{
+        margin: 0px 30px 0px 30px;
+    }
+    .contact-sub-title{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .contact-sub-desc-box{
+        margin: 30px 30px 0px 30px;
+    }
+    .contact-sub-desc{
+        font-size: 12px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .contact-container{
+        border-radius: 30px;
+        width: 62%;
+    }
+    .contact-contents{
+        gap: 40px;
+    }
+    .contact-image{
+        max-width: 50%;
+        margin-right: 50px;
+    }
+    .contact-title-box{
+        margin: 30px 0px 0px 30px;
+    }
+    .contact-title{
+        font-size: 20px;
+    }
+    .contact-desc-box{
+        margin: 20px 0px 0px 30px;
+    }
+    .contact-desc{
+        font-size: 14px;
+    }
+    input,
+    input::placeholder {
+        font-size: 14px;
+    }
+    .contact-fullname-box{
+        margin: 20px 0px 0px 30px;
+    }
+    .contact-fullname-label{
+        font-size: 14px;
+        margin: 0px;
+    }
+    .contact-fullname-input{
+        width: 200px;
+        border-radius: 7px;
+        margin: 0px;
+    }
+    .contact-email-box{
+        margin: 15px 0px 0px 30px;
+    }
+    .contact-email-label{
+        font-size: 14px;
+        margin: 0px;
+    }
+    .contact-email-input{
+        width: 200px;
+        border-radius: 7px;
+        margin: 0px;
+    }
+    .contact-service-box{
+        margin: 15px 0px 0px 30px;
+    }
+    .contact-service-label{
+        font-size: 14px;
+        margin: 0px;
+    }
+    .contact-service-input{
+        width: 200px;
+        border-radius: 7px;
+        margin: 0px;
+    }
+    .contact-button-box{
+        margin: 30px 0px 30px 30px;
+    }
+    .contact-button-click{
+        width: 150px;
+        padding: 8px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .contact-sub-container{
+        border-radius: 30px;
+    }
+    .contact-sub-contents{
+        display: flex;
+        justify-content: center;
+        gap: 0px;
+        padding: 150px 0px 50px 0px;
+    }
+    .contact-sub-title-box{
+        width: 1200px;
+        margin: 0px 35px 0px 35px;
+    }
+    .contact-sub-title{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .contact-sub-desc-box{
+        margin: 0px 35px 0px 35px;
+    }
+    .contact-sub-desc{
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 1200px) {
+    .contact-image{
+        max-width: 50%;
+        margin-right: 100px;
+    }
+    .contact-contents{
+        gap: 40px;
+    }
+    .contact-title-box{
+        margin: 40px 0px 0px 40px;
+    }
+    .contact-title{
+        font-size: 24px;
+    }
+    .contact-desc-box{
+        margin: 20px 0px 0px 40px;
+    }
+    .contact-desc{
+        font-size: 14px;
+    }
+    input,
+    input::placeholder {
+        font-size: 14px;
+    }
+    .contact-fullname-box{
+        margin: 20px 0px 0px 40px;
+    }
+    .contact-fullname-label{
+        font-size: 14px;
+        margin: 0px;
+    }
+    .contact-fullname-input{
+        width: 250px;
+        border-radius: 8px;
+        margin: 0px;
+    }
+    .contact-email-box{
+        margin: 15px 0px 0px 40px;
+    }
+    .contact-email-label{
+        font-size: 14px;
+        margin: 0px;
+    }
+    .contact-email-input{
+        width: 250px;
+        border-radius: 8px;
+        margin: 0px;
+    }
+    .contact-service-box{
+        margin: 15px 0px 0px 40px;
+    }
+    .contact-service-label{
+        font-size: 14px;
+        margin: 0px;
+    }
+    .contact-service-input{
+        width: 250px;
+        border-radius: 8px;
+        margin: 0px;
+    }
+    .contact-button-box{
+        margin: 30px 0px 40px 40px;
+    }
+    .contact-button-click{
+        width: 200px;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .contact-sub-contents{
+        display: flex;
+        justify-content: center;
+        gap: 0px;
+    }
+    .contact-sub-title-box{
+        width: 1200px;
+        margin: 0px 40px 0px 40px;
+    }
+    .contact-sub-title{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .contact-sub-desc-box{
+        margin: 0px 40px 0px 40px;
+    }
+    .contact-sub-desc{
+        font-size: 14px;
+        font-weight: 500;
+    }
+} 
