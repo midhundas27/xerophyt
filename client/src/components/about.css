@@ -42,5 +42,225 @@
     border: 10px solid #ffffff;
     object-fit: cover;
     border-radius: 50px;
-    
 }
+
+@media (max-width: 575.98px) {
+    .about-container{
+        border-radius: 20px;
+    }
+    .about-contents{
+        display: block;
+        justify-content: center;
+        gap: 0px;
+    }
+    .about-texts{
+        margin: 0px 20px 0px 20px;
+    }
+    .about-text-title{
+        font-size: 20px;
+        font-weight: 700;
+        padding: 30px 0px 10px 0px;
+    }
+    .about-text-mini-title{
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .about-text-desc{
+        font-size: 12px;
+        font-weight: 500;
+        color: #6f6f6f;
+    }
+    .about-text-mini-desc{
+        font-size: 10px;
+        font-weight: 500;
+        color: #6f6f6f;
+    }
+    .about-image-box{
+        width: 80%;
+        margin: 30px auto 0px auto;
+    }
+    .about-image{
+        margin: 0px 0px 30px 0px;
+        width: 90%;
+        height: 90%;
+        border: 10px solid #ffffff;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .about-container{
+        border-radius: 20px;
+    }
+    .about-contents{
+        display: block;
+        justify-content: center;
+        gap: 0px;
+    }
+    .about-texts{
+        margin: 0px 25px 0px 25px;
+    }
+    .about-text-title{
+        font-size: 25px;
+        font-weight: 700;
+        padding: 35px 0px 15px 0px;
+    }
+    .about-text-mini-title{
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .about-text-desc{
+        font-size: 14px;
+        font-weight: 500;
+        color: #6f6f6f;
+    }
+    .about-text-mini-desc{
+        font-size: 12px;
+        font-weight: 500;
+        color: #6f6f6f;
+    }
+    .about-image-box{
+        width: 80%;
+        margin: 35px auto 0px auto;
+    }
+    .about-image{
+        margin: 0px 0px 35px 0px;
+        width: 90%;
+        height: 90%;
+        border: 10px solid #ffffff;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .about-container{
+        border-radius: 20px;
+    }
+    .about-contents{
+        display: block;
+        justify-content: center;
+        gap: 0px;
+    }
+    .about-texts{
+        margin: 0px 30px 0px 30px;
+    }
+    .about-text-title{
+        font-size: 30px;
+        font-weight: 700;
+        padding: 40px 0px 20px 0px;
+    }
+    .about-text-mini-title{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .about-text-desc{
+        font-size: 16px;
+        font-weight: 500;
+        color: #6f6f6f;
+    }
+    .about-text-mini-desc{
+        font-size: 14px;
+        font-weight: 500;
+        color: #6f6f6f;
+    }
+    .about-image-box{
+        width: 80%;
+        margin: 40px auto 0px auto;
+    }
+    .about-image{
+        margin: 0px 0px 40px 0px;
+        width: 90%;
+        height: 90%;
+        border: 10px solid #ffffff;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .about-container{
+        border-radius: 30px;
+    }
+    .about-contents{
+        gap: 0px;
+    }
+    .about-texts{
+        margin: 0px 30px 30px 30px;
+    }
+    .about-text-title{
+        font-size: 35px;
+        font-weight: 700;
+        padding: 30px 0px 5px 0px;
+    }
+    .about-text-mini-title{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .about-text-desc{
+        font-size: 16px;
+        font-weight: 500;
+        color: #6f6f6f;
+    }
+    .about-text-mini-desc{
+        font-size: 14px;
+        font-weight: 500;
+        color: #6f6f6f;
+    }
+    .about-image-box{
+        width: 100%;
+        margin: 0px 20px 0px 0px;
+    }
+    .about-image{
+        margin: 80px 0px 0px 0px;
+        width: 90%;
+        height: 90%;
+        border: 10px solid #ffffff;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .about-container{
+        border-radius: 40px;
+    }
+    .about-contents{
+        gap: 0px;
+    }
+    .about-texts{
+        margin: 0px 35px 35px 35px;
+    }
+    .about-text-title{
+        font-size: 40px;
+        font-weight: 700;
+        padding: 35px 0px 10px 0px;
+    }
+    .about-text-mini-title{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .about-text-desc{
+        font-size: 16px;
+        font-weight: 500;
+        color: #6f6f6f;
+    }
+    .about-text-mini-desc{
+        font-size: 14px;
+        font-weight: 500;
+        color: #6f6f6f;
+    }
+    .about-image-box{
+        width: 100%;
+        margin: 0px 25px 0px 0px;
+    }
+    .about-image{
+        margin: 100px 0px 0px 0px;
+        width: 90%;
+        height: 90%;
+        border: 10px solid #ffffff;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+} 
