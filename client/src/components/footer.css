@@ -109,6 +109,25 @@
     .footer-underline {
         width: 90%;
     }
+    .footer-company-desc {
+        font-size: 12px;
+        font-weight: 500;
+        color: #6f6f6f;
+    }
+    .footer-menu-contents-list,
+    .footer-services-contents-list,
+    .footer-company-contents-list {
+    font-size: 12px;
+    font-weight: 500;
+    color: #6f6f6f;
+}
+    .footer-menu-contents-title,
+    .footer-services-contents-title,
+    .footer-company-contents-title {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -129,6 +148,25 @@
     .footer-underline {
         width: 85%;
     }
+    .footer-company-desc {
+        font-size: 14px;
+        font-weight: 500;
+        color: #6f6f6f;
+    }
+    .footer-menu-contents-list,
+    .footer-services-contents-list,
+    .footer-company-contents-list {
+    font-size: 14px;
+    font-weight: 500;
+    color: #6f6f6f;
+}
+    .footer-menu-contents-title,
+    .footer-services-contents-title,
+    .footer-company-contents-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -149,6 +187,25 @@
     .footer-underline {
         width: 80%;
     }
+    .footer-company-desc {
+        font-size: 14px;
+        font-weight: 500;
+        color: #6f6f6f;
+    }
+    .footer-menu-contents-list,
+    .footer-services-contents-list,
+    .footer-company-contents-list {
+    font-size: 14px;
+    font-weight: 500;
+    color: #6f6f6f;
+}
+    .footer-menu-contents-title,
+    .footer-services-contents-title,
+    .footer-company-contents-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -169,6 +226,25 @@
     .footer-underline {
         width: 75%;
     }
+    .footer-company-desc {
+        font-size: 14px;
+        font-weight: 500;
+        color: #6f6f6f;
+    }
+    .footer-menu-contents-list,
+    .footer-services-contents-list,
+    .footer-company-contents-list {
+    font-size: 14px;
+    font-weight: 500;
+    color: #6f6f6f;
+}
+    .footer-menu-contents-title,
+    .footer-services-contents-title,
+    .footer-company-contents-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
 }
 
 @media (min-width: 1200px) {
@@ -189,4 +265,23 @@
     .footer-underline {
         width: 68%;
     }
+    .footer-company-desc {
+        font-size: 14px;
+        font-weight: 500;
+        color: #6f6f6f;
+    }
+    .footer-menu-contents-list,
+    .footer-services-contents-list,
+    .footer-company-contents-list {
+    font-size: 14px;
+    font-weight: 500;
+    color: #6f6f6f;
+}
+    .footer-menu-contents-title,
+    .footer-services-contents-title,
+    .footer-company-contents-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
 }
