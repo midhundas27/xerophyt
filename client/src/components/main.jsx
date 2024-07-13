@@ -6,29 +6,28 @@ function Main () {
 
   return (
   <div className='main-container'>
+    <div>
+        <div className='main-pretitle'>Innovative Digital Marketing and IT Solutions</div>
+    </div>
     <div className='main-contents'>
         <div className='main-texts'>
-            <div>
-                <div className='main-pretitle'>Innovative Digital Marketing and IT Solutions</div>
-            </div>
             <div className='main-title-text'>
             <div className='main-title'>Empowering</div>
             <div className='main-title main-title-color margin'>Your</div>
             <div className='main-title margin'>Digital Presence</div>
             </div>
             <div className='main-subtitle-text'>
-            <div className='main-subtitle'>Xerophyt is a leading digital marketing and IT <br></br>
-               service agency driving businesses forward with <br></br>
-               cutting-edge technology and  
+            <div className='main-subtitle'>Xerophyt is a leading digital marketing and IT service agency, offering innovative strategies
+                 and customized solutions to boost online presence and business growth.
             </div>
             </div>
             <Link to="#contact"><div className='main-contact'>
                 <button className='main-contact-button'>CONTACT NOW</button>
             </div></Link>
         </div>
-        <div className='main-image'>
+        <div className='main-image-box'>
             <div>
-                <img src='main-image.png'></img>
+                <img className='main-image' src='main-image.png'></img>
             </div>
         </div>
     </div>
@@ -78,13 +77,12 @@ function Main () {
     <div className='why-us-title'>Why Choose Us?</div>
     </div>
     <div className='why-us-descbox'>
-    <div className='why-us-desc'>We are the right term for your business. We have the expertise and <br></br>
-        knowledge to offer impartial advice and services at an honest price.
+    <div className='why-us-desc'>We are distinguished by our dedication to excellence, innovative solutions, and personalized service. 
     </div>
     </div>
     <div className='why-us-captionbox'>
-    <div className='why-us-caption'>We are the right term for your business. We have the expertise and knowledge to offer <br></br>
-        impartial advice and services at an honest price.
+    <div className='why-us-caption'>We use the latest digital marketing strategies and IT innovations to drive business growth 
+        and keep our clients ahead in a competitive market.
     </div>
     </div>
   </div>

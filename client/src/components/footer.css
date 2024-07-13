@@ -1,84 +1,192 @@
-.footer-container{
+.footer-container {
     width: 100%;
     background-color: #ffffff;
+    padding: 20px 0;
 }
-.footer-contents{
+
+.footer-contents {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 200px;
+    padding: 20px 0;
 }
-.footer-image-box{
+
+.footer-logo-contents {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-image-box {
     margin: 4px 0px 0px 0px;
 }
-.footer-company-desc-box{
+
+.footer-company-desc-box {
     margin: 10px 0px 0px 0px;
 }
-.footer-company-desc{
+
+.footer-company-desc {
     font-size: 16px;
     font-weight: 500;
     color: #6f6f6f;
 }
-.footer-details-contents{
+
+.footer-details-contents {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 130px;
+    gap: 50px;
 }
-.footer-contents-list-box{
+
+.footer-contents-list-box {
     margin: 32px 0px 0px 0px;
 }
-.footer-menu-contents-title{
+
+.footer-menu-contents-title,
+.footer-services-contents-title,
+.footer-company-contents-title {
     font-size: 24px;
     font-weight: 700;
+    text-align: center;
 }
-.footer-menu-contents{
+
+.footer-menu-contents,
+.footer-services-contents,
+.footer-company-contents {
     margin: 10px 0px 0px 0px;
+    text-align: center;
 }
-.footer-menu-contents-list{
+
+.footer-menu-contents-list,
+.footer-services-contents-list,
+.footer-company-contents-list {
     font-size: 16px;
     font-weight: 500;
     color: #6f6f6f;
 }
-.footer-services-contents-title{
-    font-size: 24px;
-    font-weight: 700;
-}
-.footer-services-contents{
-    margin: 10px 0px 0px 0px;
-}
-.footer-services-contents-list{
-    font-size: 16px;
-    font-weight: 500;
-    color: #6f6f6f;
-}
-.footer-company-contents-title{
-    font-size: 24px;
-    font-weight: 700;
-}
-.footer-company-contents{
-    margin: 10px 0px 0px 0px;
-}
-.footer-company-contents-list{
-    font-size: 16px;
-    font-weight: 500;
-    color: #6f6f6f;
-}
-.footer-social-media{
+
+.footer-social-media {
     width: 68%;
     margin: 20px auto 0px auto;
     display: flex;
-    justify-content: flex-start;
-    gap: 30px
+    justify-content: center;
+    gap: 30px;
 }
-.footer-underline{
+
+.footer-underline {
     width: 68%;
     display: flex;
     margin: 50px auto 0px auto;
     background-color: #6f6f6f3e;
     padding: 1px 0px 0px 0px;
 }
-.footer-copyright{
+
+.footer-copyright {
     display: flex;
     justify-content: center;
     margin: 20px 0px 50px 0px;
     color: #6f6f6f;
+    text-align: center;
+}
+
+@media (max-width: 575.98px) {
+    .footer-contents {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-details-contents {
+        gap: 20px;
+    }
+
+    .footer-social-media {
+        width: 90%;
+        justify-content: center;
+    }
+
+    .footer-underline {
+        width: 90%;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .footer-contents {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer-details-contents {
+        gap: 30px;
+    }
+
+    .footer-social-media {
+        width: 85%;
+        justify-content: center;
+    }
+
+    .footer-underline {
+        width: 85%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .footer-contents {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .footer-details-contents {
+        gap: 40px;
+    }
+
+    .footer-social-media {
+        width: 80%;
+        justify-content: center;
+    }
+
+    .footer-underline {
+        width: 80%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .footer-contents {
+        flex-direction: row;
+        gap: 100px;
+    }
+
+    .footer-details-contents {
+        gap: 50px;
+    }
+
+    .footer-social-media {
+        width: 75%;
+        justify-content: flex-start;
+    }
+
+    .footer-underline {
+        width: 75%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .footer-contents {
+        flex-direction: row;
+        gap: 200px;
+    }
+
+    .footer-details-contents {
+        gap: 130px;
+    }
+
+    .footer-social-media {
+        width: 68%;
+        justify-content: flex-start;
+    }
+
+    .footer-underline {
+        width: 68%;
+    }
 }
